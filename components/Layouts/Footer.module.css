@@ -44,4 +44,10 @@
   .footerSocialLink {
     gap: 2rem;
   }
+  .footerSocialLinks {
+    font-size: 1.7rem;
+  }
+  .footerTerms {
+    font-size: 0.9rem;
+  }
 }
