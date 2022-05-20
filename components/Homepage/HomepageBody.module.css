@@ -1,0 +1,30 @@
+.homePageBodyContainer {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homePageBodyHeader {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+}
+
+.homePageParagraph {
+  color: white;
+  font-weight: 300;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+@media (max-width: 590px) {
+  .homePageBodyHeader {
+    font-size: 2rem;
+  }
+
+  .homePageParagraph {
+    font-size: 1rem;
+  }
+}

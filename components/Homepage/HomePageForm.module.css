@@ -1,0 +1,48 @@
+.HomePageFormContainer {
+  display: flex;
+  gap: 1.5rem;
+  width: 80%;
+  margin-top: 1rem;
+}
+
+.HomePageFormInput {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  padding: 2rem;
+  color: white;
+  font-weight: 400;
+}
+
+.HomePageWishlistFormContainer {
+  margin-top: 1rem;
+  background: white;
+  border-radius: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.HomePageWishlistButton {
+  outline: none;
+  background: #354fc1;
+  padding: 0.9rem 0.9rem;
+  border-radius: 100px;
+  color: white;
+}
+
+.HomePageWishlistForm {
+  outline: none;
+  border: none;
+  width: 70%;
+  border-radius: 100px;
+}
+
+@media (max-width: 590px) {
+  .HomePageFormContainer {
+    display: block;
+    margin: auto !important;
+    text-align: center;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,52 @@
+.navBarContainer {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.navBarLogoContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbarLinks {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.navBarLogoName {
+  font-size: 1rem;
+}
+
+.navBarLink {
+  font-size: 0.9rem;
+}
+
+.contactUs {
+  background: #354fc1;
+  padding: 1rem;
+  border-radius: 100px;
+}
+
+@media (max-width: 590px) {
+  .navBarLink {
+    font-size: 0.7rem;
+  }
+
+  .navbarLinks {
+    width: 70%;
+  }
+  .navBarLogo {
+    width: 30px;
+    height: 30px;
+  }
+  .navBarLogoName {
+    font-size: 0.6;
+    font-weight: 800;
+  }
+}
