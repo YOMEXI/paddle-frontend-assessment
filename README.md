@@ -3,6 +3,9 @@ A simple landing page for a design prototype
 Technologies Used:
 Nextjs, Reactjs
 
+Extra packages:
+react icons
+
 To run application:
 
 cd into client folder

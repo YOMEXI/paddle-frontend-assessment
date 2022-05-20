@@ -22,4 +22,12 @@
     padding: 1rem;
     gap: 1.6rem;
   }
+
+  .timerValue {
+    font-size: 0.9rem;
+  }
+
+  .timerSet {
+    font-size: 0.9rem;
+  }
 }

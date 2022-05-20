@@ -45,4 +45,8 @@
     text-align: center;
     gap: 1rem;
   }
+
+  .HomePageWishlistButton {
+    padding: 0.5rem 0.5rem;
+  }
 }

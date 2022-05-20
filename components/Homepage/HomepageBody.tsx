@@ -20,7 +20,6 @@ const HomepageBody = () => {
         <div>
           <HomePageForm />
         </div>
-        <div className="wishlist">k</div>
       </div>
     </>
   );

@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column !important;
   min-height: 100vh !important;
-  background-color: #201741;
+  background: url("/img/home.png") center center;
 }
 
 main {

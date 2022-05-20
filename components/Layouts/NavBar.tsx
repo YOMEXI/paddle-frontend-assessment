@@ -7,7 +7,7 @@ const Header = () => {
     <div className={styles.navBarContainer}>
       <div className={styles.navBarLogoContainer}>
         <div className={styles.navBarLogo}>
-          <Image src={`/img/metrix.png`} width={40} height={40} />
+          <Image src={`/img/metricks.png`} width={60} height={40} />
         </div>
         <div className={styles.navBarLogoName}>METRICKS</div>
       </div>
