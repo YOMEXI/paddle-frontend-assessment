@@ -1,0 +1,217 @@
+.aboutUsContainer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 
+layer 1 */
+.aboutUsBox1 > h3 {
+  background: rgba(44, 66, 77, 0.2);
+  flex: 33%;
+  position: absolute;
+  width: 50%;
+  height: 43vh;
+  padding: 2rem;
+}
+
+.aboutUsBox1Container {
+  padding: 2rem;
+}
+
+.aboutUsBox1Layer1 {
+  margin-top: 2rem;
+}
+
+.aboutUsBox1Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUsBox1Layer1 {
+  position: absolute;
+  top: 130px;
+  left: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.aboutUsBox1Layer2 {
+  font-size: 2rem;
+  margin-top: 1.3rem;
+  width: 40%;
+  text-align: center;
+}
+
+.aboutUsBox1Layer3 {
+  font-size: 1.3rem;
+  width: 30%;
+  position: absolute;
+  top: 280px;
+  right: 100px;
+  left: 800px;
+  margin-top: 6rem;
+  font-size: 1rem;
+}
+
+.lines {
+  border-bottom: 1px solid white;
+  width: 5vw;
+  margin-right: 1px;
+}
+
+@media (max-width: 1140px) {
+  .aboutUsBox1Layer3 {
+    width: 30%;
+    position: absolute;
+    top: 250px;
+    right: 100px;
+    left: 700px;
+    margin-top: 6rem;
+  }
+  .aboutUsBox1 > h3 {
+    width: 40%;
+    height: 37vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .aboutUsBox1Layer3 {
+    font-size: 1.2rem;
+    width: 50%;
+    top: 250px;
+    right: 100px;
+    left: 450px;
+    margin-top: 6rem;
+  }
+  .aboutUsBox1 > h3 {
+    flex: 33%;
+    position: absolute;
+    width: 60%;
+    height: 35vh;
+  }
+
+  .aboutUsBox1Layer2 {
+    font-size: 1.9rem;
+    margin-top: 1.3rem;
+    width: 70%;
+  }
+}
+
+/* layer 2 */
+
+.aboutUsBox2Container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutUsBox2Layer1Box {
+  display: flex;
+}
+
+.aboutUsBox2Container > h1 {
+  width: 80%;
+  font-size: 2rem;
+  display: block;
+  margin: auto;
+  margin: 7rem;
+  margin-bottom: 4rem;
+}
+
+.aboutUsBox2Layer1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+.aboutUsBox2Layer1Box1 {
+  flex: 1 1 19rem;
+}
+
+.aboutUsBox2Layer1Box1 > div {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 870px) {
+  .aboutUsBox1Layer3,
+  .aboutUsBox1Layer1,
+  .aboutUsBox1Layer2 {
+    /* font-size: 1.3rem;
+    width: 30%; */
+    position: unset;
+  }
+  .aboutUsBox1Container {
+    display: flex;
+    flex-direction: column;
+  }
+  .aboutUsBox1Layer2 {
+    font-size: 1.7rem;
+    margin-top: 0.9rem;
+    width: 90%;
+  }
+
+  .aboutUsBox1Layer3 {
+    font-size: 1rem;
+    margin-top: 0.2rem;
+    width: 90%;
+    text-align: center;
+  }
+  .aboutUsBox2Layer1Box1 > h4 {
+    font-size: 1.1rem;
+  }
+  .aboutUsBox2Layer1 {
+    margin-top: -2rem;
+  }
+  .aboutUsBox2Container {
+    margin-top: -4rem;
+  }
+}
+
+@media (max-width: 590px) {
+  .aboutUsBox2Container > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .aboutUsBox2Layer1Box1 > h4 {
+    font-size: 1rem;
+  }
+}
+
+/* layer 3 */
+
+.aboutUsBox2 {
+  padding: 6rem;
+}
+
+.aboutUsBox2 > h1 {
+  font-size: 2rem;
+}
+
+.aboutUsBox2 a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: purple;
+}
+.aboutUsBox2 a div {
+  font-size: 2rem;
+}
+
+@media (max-width: 870px) {
+  .aboutUsBox2 {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 590px) {
+}

@@ -13,8 +13,13 @@ const Header = () => {
       </div>
       <div className={styles.navbarLinks}>
         <li className={styles.navBarLink}>
-          <Link href="/">
+          <Link href="/about-us">
             <a>ABOUT US</a>
+          </Link>
+        </li>
+        <li className={styles.navBarLink}>
+          <Link href="/">
+            <a>COMING SOON</a>
           </Link>
         </li>
         <li className={styles.navBarLink}>
