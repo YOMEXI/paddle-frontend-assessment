@@ -1,27 +1,9 @@
-import {
-  Button,
-  Flex,
-  Modal,
-  ModalBody,
-  ModalCloseButton,
-  ModalContent,
-  ModalFooter,
-  ModalHeader,
-  ModalOverlay,
-  useDisclosure,
-} from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 import styles from "./ContactUs.module.css";
 
 const contactUs = () => {
-  const { isOpen, onOpen, onClose } = useDisclosure();
-
-  useEffect(() => {
-    onOpen();
-  }, []);
-
   return (
     <>
       <div className={styles.contactUsContainer}>
