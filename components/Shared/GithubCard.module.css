@@ -1,0 +1,16 @@
+.GithubCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 2rem;
+  background: white;
+}
+
+.GithubCardBox2 > div {
+  display: flex;
+  gap: 1rem;
+}
+
+.GithubCardBox2 {
+  flex: 1 1 15rem;
+}

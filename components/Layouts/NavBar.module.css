@@ -49,6 +49,9 @@
     font-size: 0.6;
     font-weight: 800;
   }
+  .contactUs {
+    display: none;
+  }
 }
 
 @media (max-width: 880px) {

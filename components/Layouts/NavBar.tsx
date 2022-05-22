@@ -28,7 +28,12 @@ const Header = () => {
           </Link>
         </li>
         <li className={styles.navBarLink}>
-          <Link href="/">
+          <Link href="/github">
+            <a>GITHUB</a>
+          </Link>
+        </li>
+        <li className={styles.navBarLink}>
+          <Link href="/contactUs">
             <a className={styles.contactUs}>CONTACT US</a>
           </Link>
         </li>

@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.homePageContactus {
+  display: none;
+}
+
 .homePageBodyHeader {
   font-size: 3rem;
   color: white;
@@ -26,5 +30,13 @@
 
   .homePageParagraph {
     font-size: 1rem;
+  }
+  .homePageContactus {
+    display: block;
+    color: black;
+    font-size: 1.8rem;
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
   }
 }
